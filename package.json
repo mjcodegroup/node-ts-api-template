@@ -1,0 +1,32 @@
+{
+  "name": "typescript-api-archetype",
+  "version": "1.0.0",
+  "description": "A Nodejs folder structure for building RESTFULL API using TypeScript and OOP.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "tsc && npx nodemon"
+  },
+  "keywords": ["nodejs","api","typescript", "folder","structure", "RESTFULL","archetype"],
+  "author": "jodfedlet",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.18",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jodfedlet/node-typescript-api-archetype.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jodfedlet/node-typescript-api-archetype/issues"
+  },
+  "homepage": "https://github.com/jodfedlet/node-typescript-api-archetype#readme"
+}
